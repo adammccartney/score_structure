@@ -8,15 +8,15 @@ prompt, and possible to create full scores from a concise single script,
 it's not at all obvious how one might go about structuring a larger project
 that allows for the structuring of musical information into a score and parts.
 
-What this page aims to do:
-+ provide a simple, high-level description of a score structure
-+ offer some very basic guidance on what each subdirectory could contain
-+ recommend a few useful learning resources
+What this page aims to do is to provide a simple, high-level description
+of a score structure, offer some very basic guidance on what each subdirectory
+could contain and go on to recommend a few useful resources that handle aspects
+of software development in more detail.
 
-What this page does not aim to do:
-+ give a step by step tutorial on creating scores with abjad
-+ give detailed description of class functionality within the 
-+ explain the details of python packaging 
+What this page does not aim to do is to give a step by step tutorial on
+creating scores with abjad, to give a detailed description of class functionality
+within the individual submodules in a score package or to explain the details of
+python packaging.
 
 
 Persistence, Modules and Packages
@@ -31,22 +31,20 @@ of abjad? Well, basically abjad is excellent and generating lilypond code and on
 of the main ways that persistence is handled is in the form of lilypond source files.
 The generation of such files will be covered in more detail in the section on segments. 
 
-Chapter 5 of Josiah Wolf Oberholzer's 2015 dissertation is titled "Composition as software development"
-and contains a much more detailed look at some of the same information contained in this document. 
-Specifically, he provides some detailed examples of how he has structured the contents of a score
-package in relation to his own compositional work. Also, he emphasizes the use of python modules
-and packages. A thorough understanding of both modules and 
-
-
-In order to understand the basic building blocks of a score and how they fit together,
-it is necessary to understand how python modules and packages work. For a good description
-of how 
-
+While a thorough understanding of python modules and packages won't necessarily tell you
+anything about musical scores, they are pretty much essential for understanding how the
+individual components within a score package interact. The python standard documentation
+and Mark Lutz's introductory python book are two good places to start. 
 
 Creativity
 ==========
 
-An important thing to remember when working with software design is that a well written
+Chapter 5 of Josiah Wolf Oberholzer's 2015 dissertation is titled "Composition as software development"
+and contains a much more detailed look at some of the same information contained in this document. 
+Specifically, he provides detailed examples of how he has structured the contents of a score
+package in relation to his own compositional work. 
+
+An important thing to remember when working with software development is that a well written
 program creates a very accurate model of a set of ideas. In essence, this is similar to
 what a well written score does, it provides a clear, abstract representation of a composition,
 which itself is simply a collection of musical ideas.
