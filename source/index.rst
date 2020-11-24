@@ -20,6 +20,7 @@ python packaging.
 
 
 ::
+
     ~/Scores/example/example
     ├── builds
     ├── distribution
@@ -34,7 +35,7 @@ python packaging.
 
 
 Persistence, Modules and Packages
-=================================
+---------------------------------
 
 In many of the examples contained in the abjad documentation the interactive prompt
 is used to generate short musical fragments to briefly demonstrate some feature.
@@ -51,7 +52,7 @@ individual components within a score package interact. The python standard docum
 and Mark Lutz's introductory python book are two good places to start. 
 
 Creativity
-==========
+----------
 
 Chapter 5 of Josiah Wolf Oberholzer's 2015 dissertation is titled "Composition as software development"
 and contains a much more detailed look at some of the same information contained in this document. 
