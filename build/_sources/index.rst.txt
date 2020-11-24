@@ -10,6 +10,16 @@ Welcome to score_structure's documentation!
    :maxdepth: 2
    :caption: Contents:
 
+      builds
+      distribution
+      etc
+      Makefile
+      materials
+      segments
+      stylesheets
+      test
+      tools
+
 
 
 Indices and tables
