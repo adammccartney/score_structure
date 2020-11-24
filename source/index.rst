@@ -19,19 +19,18 @@ within the individual submodules in a score package or to explain the details of
 python packaging.
 
 
-```
-~/Scores/example/example
-├── builds
-├── distribution
-├── etc
-├── __init__.py
-├── Makefile
-├── materials
-├── segments
-├── stylesheets
-├── test
-└── tools
-```
+::
+    ~/Scores/example/example
+    ├── builds
+    ├── distribution
+    ├── etc
+    ├── __init__.py
+    ├── Makefile
+    ├── materials
+    ├── segments
+    ├── stylesheets
+    ├── test
+    └── tools
 
 
 Persistence, Modules and Packages
